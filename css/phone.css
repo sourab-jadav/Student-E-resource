@@ -1,0 +1,54 @@
+/* Navigation */
+
+#navbar {
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+
+/* #navbar ul {
+    margin: 0 auto;
+} */
+
+#navbar ul {
+    top: 100px;
+    padding-bottom: 10px;
+}
+
+#navbar ul li a {
+    font-size: 1rem;
+    padding: 0 7px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+/* Home Section */
+
+#home {
+    height: 370px;
+    padding: 3px 60px;
+}
+
+#home::before {
+    height: 480px;
+}
+
+#home p {
+    font-size: 13px;
+}
+
+
+/* Footer */
+
+
+/* Utility classes */
+
+.h-primary {
+    font-size: 26px;
+}
+
+.btn {
+    font-size: 13px;
+    padding: 4px 8px;
+}
